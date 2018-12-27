@@ -16,3 +16,18 @@ This module will set up:
 
 more will be added...
 
+# How to use
+
+Create a ``variables.tfvars`` file containing values for the variables listed in ``variables.tf``. Verify the deployment plan by running:
+
+```
+terraform plan -var-file variables.tfvars
+```
+
+When you are satisfied that the plan does what is expected run:
+
+```
+terraform apply -var-file variables.tfvars
+```
+
+<will add somthing about outputs here>
