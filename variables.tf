@@ -11,5 +11,5 @@ variable "cloudtrail-bucket-name" {
 }
 
 variable "username" {
-  description = "Name of the admin user created"
+  description = "Name of the admin user created."
 }
